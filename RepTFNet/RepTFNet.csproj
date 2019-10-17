@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>RepTFNet</RootNamespace>
+        <LangVersion>8</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Benjamin Sims</Authors>
+        <TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0</TargetFrameworks>
+        <Title>RepTF.Net</Title>
+        <Description>An unofficial .NET API wrapper for Rep.tf!</Description>
+        <PackageIconUrl>https://rep.tf/favicon.ico</PackageIconUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="RestSharp" Version="106.6.10" />
+    </ItemGroup>
+
+</Project>
